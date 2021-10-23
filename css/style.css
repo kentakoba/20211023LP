@@ -443,7 +443,7 @@ table th {
 
 /*↓お問い合わせ----------------------------------------------------------------------------------*/
 .contact{
-  background-color:black;
+  background-color:white;
   position: relative;
   width: 100%;
   height: 200px;
@@ -482,9 +482,11 @@ table th {
 .contact__btn::before{
   content: "";
   position: absolute;
-  top: 10%;
-  left: 15px;
-  background: url(C:\Users\kenke\coachtech\20211023kobayashi\img\mailicon.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  top: 30%;
+  left: 20px;
+  background: url(../img/mailicon.svg) no-repeat;
 
 }
 
