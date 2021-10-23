@@ -1,0 +1,515 @@
+/*↓ヘッダー部分*/
+.head{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 15px;
+}
+
+.head-logo{
+  width: 10%;
+}
+
+.head-list{
+  color: gray;
+  text-align: right;
+  display: flex;
+}
+
+.head-list-child{
+  list-style: none;
+  margin-left: 10pt;
+  font-size: 10px;
+}
+
+/*↓最初の画像*/
+
+.firstview{
+  position: relative;
+  width: 1000px;
+  height: 550px;
+}
+
+.firstview-moji{
+ position: absolute;
+ left: 24%;
+}
+
+.firstview-img{
+  width: 80%;
+  position: absolute;
+  left: 45%;
+}
+
+.firstview-moji1{
+  color: #B21667;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 75px;
+  line-height: 70px;
+
+}
+
+.moji1-span{
+  color: #019BB2;
+}
+
+.firstview-moji2{
+  color: #B21667;
+  margin-top: 80px;
+  line-height: 20px;
+  font-weight: 800;
+ 
+}
+
+.moji2-span{
+  color: #019BB2;
+}
+
+.firstview-moji3{
+  color: gray;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+/*↓News---------------------------------------------------------------------------------------------*/
+.News{
+  color: beige;
+  position: relative;
+  width: 1000px;
+  height: 500px;
+}
+
+.News-oya{
+  position: absolute;
+  left: 28%;
+  margin-top: 50px;
+}
+
+.News-child2{
+  color: gray;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.News-bar1{
+  margin-top: 35px;
+  height: 0.1px;
+  background-color: gray;
+}
+
+.News-bar2{
+  margin-top:   15px;
+}
+
+.News-bar3{
+  height: 0.5px;
+  background-color: gray;
+}
+
+
+.News-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.News-child3{
+  color: gray;
+  margin-right: 30px;
+}
+
+.News-child4{
+  margin-right: 30px;
+  width: 70px;
+  padding: 3px 0;
+  color: #fff;
+  border-radius: 30px;
+  background:#B21667;
+  text-align: center;
+  display:block;
+}
+
+.News-child5{
+  color: gray;
+  margin-right: 200px;
+}
+
+/*↓about*/
+.about{
+  background-color:#f6f5f3;
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+.about-parent{
+  position: absolute;
+  top: 40px;
+  left: 40%;
+}
+
+.about-child1{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about-child2{
+   color: gray;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.about-child3{
+  color: gray;
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  line-height: 25px;
+}
+
+.about-img{
+  width: 25%;
+  position: absolute;
+  right: 15%;
+  top: 40%;
+}
+
+/*↓service----------------------------------------------------------------------------------*/
+.service{
+  background-color:white;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.service-parent{
+  color: gray;
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+
+.service-child2{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.service-box1{
+  background-color: #B21667;
+  position: absolute;
+  left: 15%;
+  top: 25%;
+  width: 450px;
+  height: 300px;
+}
+
+.service-img1{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 30px;
+}
+
+.service-box1-child1{
+  margin-left: 43%;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.service-box1-child2{
+  margin-left: 15%;
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.service-box2{
+  background-color: #B35B8B;
+  position: absolute;
+  left: 50.5%;
+  top: 25%;
+  width: 450px;
+  height: 150px;
+}
+
+.service-img2{
+  width: 25%;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.service-box2-child1{
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  left: 160px;
+  top: 30px;
+}
+
+.service-box2-child2{
+  color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  left: 160px;
+  top: 60px;
+}
+.service-box3{
+  background-color: #B2889E;
+  position: absolute;
+  left: 50.5%;
+  top: 55%;
+  width: 450px;
+  height: 150px;
+}
+
+/*↓blog----------------------------------------------------------------------------------*/
+.blog{
+  background-color:#f6f5f3;
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.blog-parent{
+  position: absolute;
+  left: 15%;
+  top: 10%;
+}
+
+.blog-child2{
+  color: gray;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+
+.flex__item{
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  height: 300px;
+  position: absolute;
+  left: 15%;
+  top: 30%;
+}
+
+.practice__card {
+  width: 30%;
+  position: relative;
+
+}
+.card__cat {
+  padding: 8px 13px;
+  background: #B21667;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  position: absolute;
+  border-radius: 15px 0 0 0;
+
+
+}
+.card__img img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+
+}
+
+.card__content {
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+}
+
+.card__ttl {
+  font-size: 13px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.tag {
+  font-size: 14px;
+  text-align: right;
+}
+
+.card__tag {
+  display: inline-block;
+  color: #888888;
+}
+
+.card__date {
+  display: inline-block;
+  margin-left: 33px;
+  color: #888888;
+}
+
+.blog__btn {
+  font-size: 14px;
+  width: 200px;
+  padding: 17px 0;
+  color: #B21667;
+  border-radius: 30px;
+  background-color: white;
+  text-align: center;
+  margin:80px auto 0;
+  display:block;
+  position: absolute;
+  top: 430px;
+  left: 550px;
+  border: solid 2px #B21667;
+}
+
+/*↓会社概要----------------------------------------------------------------------------------*/
+.gaiyou{
+  background-color:white;
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.gaiyou-parent{
+  position: absolute;
+  left: 22%;
+  top: 10%;
+}
+
+.gaiyou-child2{
+  color: gray;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+
+table {
+  position: absolute;
+  left: 22%;
+  top: 30%;
+}
+table td {
+  border: 1px solid #ccc;
+  text-align: left;
+  font-weight: 100;
+  padding: 20px ;
+
+}
+table th {
+  border: 1px solid #ccc;
+  background-color: #dedede;
+  padding: 20px ;
+  text-align: left;
+  font-weight: 100;
+}
+
+/*↓採用・社員インタビュー----------------------------------------------------------------------------------*/
+
+.saiyo{
+  position: relative;
+}
+
+.saiyo_img{
+ width: 50%;
+}
+
+.saiyo_moji{
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 20%;
+  top: 45%;
+  color: white;
+}
+
+.interview_moji{
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  left: 70%;
+  top: 45%;
+}
+
+
+.interview_img{
+ width: 50%;
+ position: absolute;
+ left: 50%;
+  top: 0%;
+}
+
+/*↓お問い合わせ----------------------------------------------------------------------------------*/
+.contact{
+  background-color:black;
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.contact-moji{
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-bar{
+  margin-top: 20px;
+  height: 30px;
+  width: 2px;
+  background-color:#B21667;
+  position: absolute;
+  left: 50%;
+}
+
+.contact__btn{
+  font-size: 13px;
+  width: 200px;
+  padding: 20px 0;
+  background:linear-gradient(90deg,#F81F8A,#D81A7A,#B51668);
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  margin:70px auto;
+  display:block;
+  box-shadow: 1px 5px 0px #B51668;
+  position: relative;
+}
+
+.contact__btn::before{
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 15px;
+  background: url(C:\Users\kenke\coachtech\20211023kobayashi\img\mailicon.svg) no-repeat;
+
+}
+
+.plactice__btn {
+  position: relative;
+  background-color: #55bbbb;
+  width: 200px;
+  display: block;
+  padding: 18;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+
+
+.footer{
+  background-color: #f6f5f3;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: gray;
+  font-size: 12px;
+}
