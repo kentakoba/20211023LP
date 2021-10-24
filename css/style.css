@@ -24,6 +24,58 @@
 /*↓最初の画像*/
 
 .firstview{
+  width: 100%;
+  height: 550px;
+  text-align: right;
+  position: relative;
+}
+
+.firstview-moji{
+ position: absolute;
+ left: 24%;
+ top: 0%;
+ text-align: left;
+ width: 50%;
+}
+
+.firstview-img{
+  width: 60%;
+}
+
+.firstview-moji1{
+  color: #B21667;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 75px;
+  line-height: 70px;
+
+}
+
+.moji1-span{
+  color: #019BB2;
+}
+
+.firstview-moji2{
+  color: #B21667;
+  margin-top: 80px;
+  line-height: 20px;
+  font-weight: 800;
+ 
+}
+
+.moji2-span{
+  color: #019BB2;
+}
+
+.firstview-moji3{
+  color: gray;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+/* 
+↓先生に、”画面幅が 1000 ~ 1250 で firstview の画像が右側にはみ出している”とご指摘を受ける前の記述
+.firstview{
   position: relative;
   width: 1000px;
   height: 550px;
@@ -70,12 +122,13 @@
   font-size: 10px;
   line-height: 15px;
 }
+*/
 
 /*↓News---------------------------------------------------------------------------------------------*/
 .News{
   color: beige;
   position: relative;
-  width: 1000px;
+  width: 100%;
   height: 500px;
 }
 
@@ -145,19 +198,23 @@
   height: 400px;
 }
 .about-parent{
+  /*親要素に中央左右寄せを適応した*/
+
+  text-align: center;
+
+  /*↓先生のご指摘を受けて中央寄せに変更する前
   position: absolute;
   top: 40px;
-  left: 40%;
+  left: 40%;*/
 }
 
 .about-child1{
-  text-align: center;
-  margin-top: 10px;
+  color: gray;
+  /*子要素の上に余白を作れず？な状態*/
 }
 
 .about-child2{
-   color: gray;
-  text-align: center;
+  color: gray;
   font-weight: bold;
   font-size: 25px;
   margin-top: 15px;
