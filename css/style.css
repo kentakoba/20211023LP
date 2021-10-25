@@ -336,7 +336,7 @@
   width: 100px;
   position: absolute;
   top: 0;
-  left: 10%;
+  left: 5%;
   bottom: 0;
   margin: auto;
 }
@@ -345,7 +345,8 @@
   color: #fff;
   font-weight: bold;
   position: absolute;
-  left: 160px;
+   /*20211025leftのpx数を修正をしました*/
+  left: 130px;
   top: 30px;
   font-size: 12px;
 
@@ -356,7 +357,10 @@
   font-size: 12px;
   line-height: 20px;
   position: absolute;
-  left: 160px;
+  
+  /*20211025テキストの幅・leftのpx数を修正をしました*/
+  width: 70%;
+  left: 130px;
   top: 60px;
 }
 .service-box3{
@@ -435,16 +439,17 @@
 .tag {
   font-size: 14px;
   text-align: right;
+   /*20211025 Flexboxを適応し改行されないようにしました。*/
+
+  display: flex;
+  justify-content: space-between;
 }
 
 .card__tag {
-  display: inline-block;
   color: #888888;
 }
 
 .card__date {
-  display: inline-block;
-  margin-left: 33px;
   color: #888888;
 }
 
